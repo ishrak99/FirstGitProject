@@ -7,5 +7,17 @@ echo "# FirstGitProject" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/ishrak99/FirstGitProject.git
+git remote add origin https://github.com/ishrak99/FirstGitProject.git      >>>>> note this is add origin
 git push -u origin master
+
+As we have to add more files to existing project use below set of commands 
+
+git init
+git add GitTest.txt
+git commit -m "adding GitTest.txt to FirstGitProject"
+git remote set-url origin https://github.com/ishrak99/FirstGitProject.git   >>>> note this is set-url origin
+git push -u origin master
+
+if you do not use set-url you will get below error:
+    "fatal: remote origin already exists."
+
