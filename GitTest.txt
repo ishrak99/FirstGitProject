@@ -1,0 +1,11 @@
+First login to git and Create new project name as "FirstGitProject"
+Create a directory at you local machine and make a foder name FirstGitProject
+Create a file name GitTest.txt
+now copy all this content in there and run below commands
+
+echo "# FirstGitProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ishrak99/FirstGitProject.git
+git push -u origin master
