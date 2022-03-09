@@ -20,4 +20,4 @@ git push -u origin master
 
 if you do not use set-url you will get below error:
     "fatal: remote origin already exists."
-
+#here i have created and pushed cloned project from github to local git server
